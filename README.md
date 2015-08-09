@@ -1,1 +1,1 @@
-# gsql.github.io
+# http://gsql.org
