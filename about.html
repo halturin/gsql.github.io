@@ -33,7 +33,7 @@
       <h1>GSQL Project: Integrated database development tool for GNOME</h1>
       <div id="tabs">
         <ul id="portal-globalnav">
-               <li {{about_active}}><a href="/about.html"><span>About</span></a></li>
+         <li {{about_active}}><a href="/about.html"><span>About</span></a></li>
             <li {{development_active}}><a href="/development.html"><span>Development</span></a></li>
             <li {{downloads_active}}><a href="/downloads.html"><span>Downloads</span></a></li>
             <li {{features_active}}><a href="/features.html"><span>Features</span></a></li>
@@ -46,65 +46,35 @@
 <!-- end site header -->
 
   <div id="body">
-
-  <div id="content">
-
-<table border=0 cellspacing=20 cellpadding=20>
-<tr>
-<td>
-Main Window (MySQL)<br />
-<a href=/images/screenshots/gsql-0.2.0-mysql.png><img src=/images/screenshots/thumbs/gsql-0.2.0-mysql.png></a> 
-</td>
-<td>
-Main Window (Oracle)<br />
-<a href=/images/screenshots/gsql-0.2.0-oracle.png><img src=/images/screenshots/thumbs/gsql-0.2.0-oracle.png></a> 
-</td>
-<td>
-Terminal <br />
-<a href=/images/screenshots/gsql-0.2.0-terminal.png><img src=/images/screenshots/thumbs/gsql-0.2.0-terminal.png></a> 
-</td>
-</tr>
-
-
-
-<tr>
-<td>
-Widescreen Layout <br />
-<a href=/images/screenshots/gsql-0.2.0-widescreen.png><img src=/images/screenshots/thumbs/gsql-0.2.0-widescreen.png></a> 
-</td>
-
-<td>
-Simple Code Editor<br />
-<a href=/images/screenshots/gsql-0.2.0-code.editor.png><img src=/images/screenshots/thumbs/gsql-0.2.0-code.editor.png></a> 
-</td>
-
-<td>
-Preferences<br />
-<a href=/images/screenshots/gsql-0.2.0-preferences.png><img src=/images/screenshots/thumbs/gsql-0.2.0-preferences.png></a> 
-</td>
-</tr>
-
-
-<tr>
-<td>
-Tunnel plugin <br />
-<a href=/images/screenshots/gsql-0.2.2-tunnel.png><img src=/images/screenshots/thumbs/gsql-0.2.2-tunnel.png></a> 
-</td>
-
-<td>&nbsp;
-</td>
-
-<td>&nbsp;
-</td>
-</tr>
-
-
-</table>
-
-
-  </div> <!-- end of div#content -->
-
-
+ <p><br />
+The mission of GSQL opensource project is to supply database developers with an universal tool 
+platform tailored against market leading DBMS by providing:
+</p>
+<ul>
+<li>native DBMS access (not via ODBC layer)</li> 
+<li>databased objects organised into a tree</li> 
+<li>intuitive and easy database objects handling</li> 
+<li>syntax highlighting</li> 
+<li>query plan builder</li> 
+<li>query constructor</li> 
+<li>query result export (in XML, CSV, HTML)</li> 
+<li>debugger (depending on RDBMS)</li> 
+<li>query planner control (depending on RDBMS)</li> 
+<li>database administration functions</li> 
+<li>database system monitoring</li> 
+<li>GNOME integration (via gconf and gnome-keyring)</li> 
+<li>plugin: data migration wizard for various RDBMS</li>
+</ul>
+<p>
+Architecturely GSQL is designed so that the database interfaces are arranged into modules linked 
+to the platform by <a href="/features/#Engines">engine</a> API. It allows to implement new engines 
+independently. GSQL provides developers with a rich <a href="/development/references">API</a>.
+To extend the functions of GSQL engines, we suggest loadable 
+<a href="/features/#Plugins">plugins</a> <a href="/development/references">API</a>.</p>
+<p>
+One of the main ideas is tight integration with the Desktop Environment (<a href="http://gnome.org">GNOME</a>).</p>
+<p>
+We kindly ask you to post your ideas and wishes in the 
   
   <div id="sidebar">
 <center>  <a href='http://www.pledgie.com/campaigns/9891'><img alt='Click here to lend your support to: GSQL and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/9891.png?skin_name=chrome' border='0' /></a><br/></center>
